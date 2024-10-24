@@ -1,0 +1,114 @@
+.recoverAuth {
+  display: block;
+  background-image: url("http://upzet-v-light.react.themesdesign.in/static/media/bg.8e59bf9efab44b85d7d5.jpg");
+  background-position: 100%;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-overlay {
+  background-color: #000;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0.7;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.containrec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 12px;
+  --bs-gutter-y: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  width: 100%;
+}
+.text-center {
+  text-align: center !important;
+}
+.auth-logo.logo-dark {
+  display: block !important;
+}
+@media (min-width: 768px) {
+  .text-md-end {
+    text-align: right !important;
+  }
+}
+@media (min-width: 768px) {
+  .mt-md-0 {
+    margin-top: 0 !important;
+  }
+}
+
+.form-check-input {
+  width: 1em !important;
+  height: 1em !important;
+  margin-top: 0.35em !important;
+  border: 0.25px solid rgba(0, 0, 0, 0.25) !important;
+}
+label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 1px;
+}
+a {
+  text-decoration: none !important;
+}
+.lockicon {
+  font-size: 1.5rem !important;
+}
+.heartIcon {
+  font-size: 1.5rem !important;
+  color: red !important;
+}
+
+.btnrec {
+  background: #0bb197 !important;
+  --bs-btn-font-size: 0.875rem !important;
+  --bs-btn-font-weight: 400 !important;
+  height: 40px !important;
+}
+.font14 {
+  font-size: 14px;
+}

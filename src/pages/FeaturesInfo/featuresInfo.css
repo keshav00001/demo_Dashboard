@@ -1,0 +1,72 @@
+.features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardFeatures {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) !important;
+  --bs-card-border-width: none !important;
+  --bs-card-height: 125px !important;
+}
+.apex-charts {
+  min-height: 10px !important;
+}
+.apex-charts text {
+  fill: #adb5bd;
+  font-family: Work Sans, sans-serif !important;
+  font-family: var(--bs-font-sans-serif) !important;
+}
+
+.div1 {
+  overflow: hidden !important;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.p1 {
+  margin-bottom: 0rem;
+  color: #74788d !important;
+  font-size: 14px;
+}
+.p1h5 {
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+  font-size: 16px;
+}
+.p2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #74788d !important;
+}
+
+/* ............................ */
+.carBody_row {
+  position: absolute;
+  top: 20px;
+}
+
+.radialCharts {
+  position: relative;
+  bottom: 12px;
+}
+
+.nor_Icons {
+  color: #2bb4a2;
+  font-size: 16px;
+  margin-right: 9px;
+  margin-left: 4px;
+}
+.nor_Icon2 {
+  color: red;
+  font-size: 16px;
+  margin-right: 9px;
+  margin-left: 4px;
+}
+.Avtar_Icon {
+  color: #2bb4a2;
+  font-size: 18px;
+}

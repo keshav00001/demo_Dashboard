@@ -1,0 +1,134 @@
+.cardInbox {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  --bs-card-border-width: none !important;
+}
+
+.navsItems {
+  background: #f1f5f7 !important;
+  width: 30% !important;
+  background: #f1f5f7 !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-width: 1px;
+  --bs-nav-tabs-border-color: none !important;
+  --bs-nav-tabs-border-radius: 0.375rem;
+  --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;
+  --bs-nav-tabs-link-active-color: #495057;
+  --bs-nav-tabs-link-active-bg: none !important;
+  --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.message-list li .col-mail-1 {
+  width: 320px;
+}
+.message-list li .col-mail {
+  float: left;
+  position: relative;
+}
+.message-list li .col-mail-1 .checkbox-wrapper-mail {
+  margin: 15px 10px 0 20px;
+}
+.message-list li .col-mail-1 .title {
+  left: 110px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+.message-list li a {
+  color: #74788d;
+}
+/* ............... */
+
+.col-mail-2 {
+  bottom: 0;
+  left: 320px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.col-mail-2 .subject {
+  left: 0;
+  overflow: hidden;
+  right: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.col-mail-2 .subject {
+  position: absolute;
+  top: 0;
+}
+
+.col-mail-2 .date {
+  padding-left: 80px;
+  right: 0;
+  width: 170px;
+}
+.col-mail-2 .date,
+.col-mail-2 .subject {
+  position: absolute;
+  top: 0;
+}
+
+/* ................................ */
+.span_overflow {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  /* width: 93px !important; */
+}
+
+.mailPadding {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #787a91;
+  font-weight: 400;
+}
+.badge {
+  --bs-badge-font-size: 0.7em !important;
+  --bs-badge-font-weight: 600 !important;
+  margin-right: 4px !important;
+  position: relative !important;
+  bottom: 1px !important;
+}
+.badgeSpan {
+  position: relative;
+  bottom: 1px;
+}
+.badge.bg_support {
+  background-color: #4aa3ff !important;
+}
+.form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  margin-top: 0.035em !important;
+  border: 0.25px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.form-check-input:checked[type="checkbox"] {
+  background-image: url("../../Images/check.png") !important;
+}
+.form-check-input:checked {
+  background-color: #ffffff !important;
+  border-color: #d1d1d1 !important;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+
+.iconFont16 {
+  font-size: 18px !important;
+  position: relative !important;
+  bottom: 2px !important;
+}

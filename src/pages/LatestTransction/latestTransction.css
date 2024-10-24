@@ -1,0 +1,118 @@
+.dash_transaction {
+  width: 100%;
+  /* display: flex; */
+  flex: 1;
+}
+
+.cardNotification {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) !important;
+  --bs-card-border-width: none !important;
+}
+.cardTitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 7px;
+}
+.font12 {
+  font-size: 12px !important;
+}
+.font15 {
+  font-size: 15px !important;
+  color: #343a40;
+}
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.avatar-titleTransactions {
+  align-items: center;
+  background-color: #c2ebe5;
+  color: #fff;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.btntransaction {
+  border: 1px solid #0bb197 !important;
+  padding: 0.35rem !important;
+  text-decoration: none;
+  --bs-btn-line-height: 0.99 !important;
+  color: #0ac074 !important;
+  --bs-btn-font-size: 0.76563rem !important;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+.btntransactionDanger {
+  border: 1px solid #ff3d60 !important;
+  padding: 0.35rem !important;
+  text-decoration: none;
+  color: #ff3d60 !important;
+  --bs-btn-line-height: 0.99 !important;
+  --bs-btn-font-size: 0.76563rem !important;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+.btntransactionDanger:hover {
+  background-color: #ff3d60 !important;
+  color: #ffffff !important;
+  text-decoration: none;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+.btntransaction:hover {
+  background-color: #0bb197 !important;
+  border-color: #0ac074 !important;
+  color: #ffffff !important;
+  text-decoration: none;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+.btn-outline-successTransaction {
+  --bs-btn-border-color: #0ac074 !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+.btn-outline-DangerTransaction {
+  --bs-btn-border-color: #ff3d60 !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+}
+
+.btnTransaction-sm {
+  --bs-btn-padding-y: 0.25rem !important;
+  --bs-btn-padding-x: 0.5rem !important;
+  --bs-btn-border-radius: 0.2rem !important;
+}
+.form-check-input:checked {
+  background-color: #0bb197 !important;
+  border-color: #0bb197 !important;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+}
+.form-check .form-check-input {
+  float: left;
+  margin-left: -1.5em;
+}
+.iconCnf {
+  font-size: 0.95rem !important;
+  color: #0ac074;
+}
+.iconCncel {
+  font-size: 0.95rem !important;
+  color: #ff3d60;
+}
+.iconPnd {
+  font-size: 0.95rem !important;
+  color: #ffc107;
+}
+.tbdy {
+  color: #74788d !important;
+  font-size: 14px;
+  font-weight: 400;
+}

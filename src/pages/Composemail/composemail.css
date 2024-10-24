@@ -1,0 +1,62 @@
+.cardDiv {
+  height: 100%;
+  padding-top: 10px;
+}
+.cardCompose {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  --bs-card-border-width: none !important;
+
+  height: calc(100% - 22px) !important;
+
+  /* height: 212vh !important;
+  margin-top: 11px !important; */
+}
+
+.btn_compose {
+  background: #dc3545 !important;
+  width: -webkit-fill-available;
+  --bs-btn-bg: #ff3d60 !important;
+  --bs-btn-hover-bg: #d93452 !important;
+  --bs-btn-hover-border-color: #cc314d !important;
+  --bs-btn-padding-x: 0.75rem !important;
+  --bs-btn-padding-y: 0.45rem !important;
+  --bs-btn-line-height: 38px !important;
+  border-radius: 30px !important;
+  --bs-btn-font-size: 0.875rem !important;
+  --bs-btn-font-weight: 400 !important;
+}
+
+.compose_Icon {
+  font-size: 22px;
+  padding-bottom: 3px;
+}
+.compose_Icon2 {
+  font-size: 20px !important;
+  padding-bottom: 3px;
+  color: #ff3d60;
+  margin-right: 10px;
+}
+.compose_Icon3 {
+  font-size: 20px !important;
+  padding-bottom: 3px;
+  color: #74788d;
+  margin-right: 10px;
+}
+/* a {
+  text-decoration: none;
+} */
+.mail-list a.active {
+  color: #ff3d60;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.mail-list a {
+  color: #74788d;
+  display: block;
+  line-height: 24px;
+  padding: 6px 5px;
+  font-size: 14px;
+  text-decoration: none;
+}

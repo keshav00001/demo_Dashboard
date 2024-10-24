@@ -1,0 +1,66 @@
+.cardECompose {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  --bs-card-border-width: none !important;
+  /* height: 212vh !important;
+    margin-top: 11px !important; */
+}
+
+.app_Ed {
+  display: flex;
+  flex-direction: column;
+  /* padding: 10% 25%; */
+  margin-top: 20px;
+  /* gap: 30px; */
+}
+.editor-wrapper {
+  border: 1px solid #c4cdd5;
+}
+.message-toolbar {
+  border-bottom: 1px solid #c4cdd5;
+  margin-bottom: 0px;
+  padding: 6px 5px;
+}
+.message-editor {
+  height: 150px;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+.rdw-option-wrapper {
+  min-width: 35px;
+  height: 30px;
+}
+.html-output {
+  border: 1px solid silver;
+  padding: 20px;
+  background-color: #fafafa;
+}
+/* ............................ */
+
+.btn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.btnCompose {
+  background-color: #2ca491 !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+  padding-top: 3px !important;
+  padding-bottom: 7px !important;
+  text-decoration: none;
+  border: none !important;
+}
+.btnCompose2 {
+  background-color: #4aa3ff !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+  padding-top: 3px !important;
+  padding-bottom: 7px !important;
+  text-decoration: none;
+  border: none !important;
+}

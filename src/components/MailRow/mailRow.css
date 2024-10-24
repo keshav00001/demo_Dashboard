@@ -1,0 +1,57 @@
+.mailRowBtn {
+  --bs-btn-padding-x: 0.75rem !important;
+  --bs-btn-padding-y: 0.47rem !important;
+  --bs-btn-font-size: 0.875rem !important;
+  --bs-btn-font-weight: 400 !important;
+  --bs-btn-line-height: 1.5 !important;
+}
+
+.btn_adj {
+  position: relative !important;
+  right: 17px !important;
+}
+.btnMailRow {
+  background-color: #0bb197 !important;
+  border: 0px solid #ffffff !important;
+  padding: 0rem !important;
+}
+/* .btnMailRowbtnMailRow:hover {
+  color: "black" !important;
+} */
+.btngrp {
+  display: flex;
+  width: 150px;
+  height: 36px;
+  font: -webkit-small-control !important;
+}
+
+.dropDownMailRow {
+  background: #0bb197;
+  padding: 6px;
+  border-radius: 7px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.dropDown_app1 {
+  --bs-dropdown-min-width: 10rem !important;
+  border: none !important;
+}
+.dropItem {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dropLastDiv {
+  position: relative;
+  left: 18px;
+}
+.dropLastDiv .span1 {
+  font-size: 14px;
+  position: relative;
+  bottom: 2px;
+}
+
+p {
+  font-size: 14px;
+}

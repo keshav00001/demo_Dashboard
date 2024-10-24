@@ -1,0 +1,17 @@
+.dash_SocialSource {
+  width: 100%;
+  /* display: flex; */
+  flex: 1;
+}
+.cardSocial {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) !important;
+  --bs-card-border-width: none !important;
+}
+.cardTitles {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 7px;
+}
+.font15 {
+  font-size: 15px;
+}

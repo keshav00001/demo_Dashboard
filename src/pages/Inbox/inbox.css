@@ -1,0 +1,10 @@
+.inbox {
+  background-color: "#F3F3F4" !important;
+}
+
+.inboxLayout {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+}

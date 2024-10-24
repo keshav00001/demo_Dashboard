@@ -1,0 +1,24 @@
+.avtarImag {
+  width: 40px;
+}
+
+.replyBtn {
+  background-color: #505d69 !important;
+  border-radius: 5px;
+  color: #ffffff !important;
+  padding-left: 5px;
+  padding-right: 11px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-decoration: none;
+}
+
+.replyDiv {
+  padding-top: 33px;
+}
+
+.card1 {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  --bs-card-border-width: none !important;
+}

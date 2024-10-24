@@ -1,0 +1,27 @@
+.dash_orderStats {
+  width: 100%;
+  /* display: flex; */
+  flex: 1;
+}
+
+.cardOrderStats {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) !important;
+  --bs-card-border-width: none !important;
+}
+.cardTitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 7px;
+}
+.progress {
+  --bs-progress-height: 0.325rem !important;
+  --bs-progress-font-size: 0.65625rem !important;
+  --bs-progress-bg: #f1f5f7 !important;
+  --bs-progress-border-radius: 0.25rem !important;
+  --bs-progress-bar-bg: #0bb197 !important;
+}
+.text-muted {
+  font-size: 14px;
+  color: #6c757d !important;
+  --bs-text-opacity: 1;
+}
